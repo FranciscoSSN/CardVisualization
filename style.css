@@ -1,0 +1,96 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background: var(--cream);
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    margin: 150px 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background: var(--white);
+}
+
+.container > .content-imagem-logo > img {
+    width: 230px;
+    border-radius: 5px;
+}
+
+.container > .container-content > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    margin: 10px;
+    line-height: 20px;
+}
+
+.container > .container-content > h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    margin: 20px auto;
+}
+
+.container > .container-content > .content-values {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 24px auto;
+    
+}
+
+.container > .container-content > .content-values > span {
+    font-size: 20px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: var(--dark-cyan);
+    margin-top: -10px;
+}
+
+.container > .container-content > .content-values > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+    margin-top: -10px;
+}
+
+.container > .container-content > .my-button {
+    /* content: "f217"; */
+    border: 1px solid transparent;
+    background: var(--dark-cyan);
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: -15px;
+    width: 200px;
+}
+
+body > .attribution {
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    margin-top: 280px;
+}
+
+.attribution > a {
+    text-decoration: none;
+}
